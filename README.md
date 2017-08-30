@@ -12,13 +12,20 @@ An impressive set of features:
     - Image
     - Tag
     - Sha
+    Make changes to policy and have it apply in seconds
   - Blacklisting/Whitelisting of all the things
   - Integration with Kubernetes RBAC
   - Image Signing support/enforcement
+    - Only trusted images from now on!
   - Extensible Blacklisting Support through webhooks
     - Image scanning
     - freeze deploys in trading hours
   - Audit trails
+    What version of each program is deployed for every team, in real time!
   - Designed for High-Availability
   - Optionally enforce tag immutability
-  - Metrics!
+    - Set explicitly allowed mutable tags (latest)
+  No more tags changing when least expected
+  - Pull through cache of whitelisted images?... (By sha...)
+  - Metrics! (Prometheus, others...)
+  - Good logging
