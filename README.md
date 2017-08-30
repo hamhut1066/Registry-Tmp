@@ -13,3 +13,12 @@ An impressive set of features:
     - Tag
     - Sha
   - Blacklisting/Whitelisting of all the things
+  - Integration with Kubernetes RBAC
+  - Image Signing support/enforcement
+  - Extensible Blacklisting Support through webhooks
+    - Image scanning
+    - freeze deploys in trading hours
+  - Audit trails
+  - Designed for High-Availability
+  - Optionally enforce tag immutability
+  - Metrics!
