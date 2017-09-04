@@ -11,7 +11,7 @@ An impressive set of features:
     - Repository
     - Image
     - Tag
-    - Sha
+    - Sha  
     Make changes to policy and have it apply in seconds
   - Blacklisting/Whitelisting of all the things
   - Integration with Kubernetes RBAC
